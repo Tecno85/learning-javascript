@@ -19,6 +19,9 @@ console.log(helloJavascript) // Hello Visual Studio Code
 
 // const
 
+const helloWorld3 = "Hola, JavaScript 3!";
+console.log(helloWorld3);
+
 /*----------------------------------------------------------------------------------------*//*
 - PALABRAS RESERVADAS EN JAVASCRIPT -
 
@@ -46,4 +49,4 @@ const tiene un ámbito de bloque y no permite reasignación, lo que es útil par
 3. Asignación: Dar un valor a una variable, ya sea en el momento de su declaración (inicialización) o posteriormente.
 *//*---------------------------------------------------------------------------------------*/
 
-// Quede en el minuto 57:00
+// Quede en el minuto 57:00                
