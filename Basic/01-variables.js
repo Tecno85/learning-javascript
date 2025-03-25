@@ -1,28 +1,32 @@
+/*----------------
+  //! Variables
+-----------------*/
 
-// var
+//var
 
-console.log(helloWorld) // undefined
+console.log(helloWorld); // undefined
 
 var helloWorld = "Hola Mundo";
-console.log(helloWorld) // Hola Mundo
+console.log(helloWorld); // Hola Mundo
 
-var helloWorld = "Hello Ivan"
-console.log(helloWorld) // Hello Ivan
+var helloWorld = "Hello Ivan";
+console.log(helloWorld); // Hello Ivan
 
-// let 
+// let
 
 let helloJavascript = "Hello JavaScript";
-console.log(helloJavascript) // Hello JavaScript
+console.log(helloJavascript); // Hello JavaScript
 
 helloJavascript = "Hello Visual Studio Code";
-console.log(helloJavascript) // Hello Visual Studio Code
+console.log(helloJavascript); // Hello Visual Studio Code
 
 // const
 
 const helloWorld3 = "Hola, JavaScript 3!";
-console.log(helloWorld3);
+console.log(helloWorld3); /*
 
-/*----------------------------------------------------------------------------------------*//*
+/*----------------------------------------------------------------------------------------*/
+/*
 - PALABRAS RESERVADAS EN JAVASCRIPT -
 
 Los nombres de las variables deben ser descriptivos, no pueden empezar con números ni caracteres especiales (excepto guión bajo), no pueden ser iguales a las palabras reservadas en JavaScript, es recomendable usar nombres en ingles y usar la convención camelCase - lowercamelCase. 
@@ -47,6 +51,7 @@ const tiene un ámbito de bloque y no permite reasignación, lo que es útil par
 1. Declaración: Definir una variable.
 2. Inicialización: Asignar un valor inicial a una variable en el momento de su declaración.
 3. Asignación: Dar un valor a una variable, ya sea en el momento de su declaración (inicialización) o posteriormente.
-*//*---------------------------------------------------------------------------------------*/
+*/
+/* --------------------------------------------------------------------------------------*/
 
-// Quede en el minuto 57:00                
+// Quede en el minuto 57:00

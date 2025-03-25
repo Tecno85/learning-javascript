@@ -1,7 +1,4 @@
-
-
- //! Ejercicios: Primeros Pasos --
-
+//! Ejercicios: Primeros Pasos
 
 //? 1. Escribe un comentario de una línea.
 
@@ -31,10 +28,9 @@ let mySymbol = Symbol("mysymbol");
 let myBigInt = 97497293874923874923874n;
 let myBigInt2 = BigInt(3804702397840238402398402983402n);
 
-
 //? 4. Imprime por consola el valor de todas las variables.
 
-console.log(firtsName);
+console.log(firstName);
 console.log(age);
 console.log(isMarried);
 console.log(nullValue);
@@ -54,7 +50,6 @@ console.log(typeof mySymbol);
 console.log(typeof myBigInt);
 console.log(typeof myBigInt2);
 
-
 //? 6. A continuación, modifica los valores de las variables por otros del mismo tipo.
 
 firstName = "Ismael";
@@ -70,38 +65,33 @@ myBigInt2 = BigInt(55239482034804234234n);
 
 firstName = 8;
 age = "Ismael";
-isMarried = 10 ;
+isMarried = 10;
 nullValue = false;
 undefinedValue = Symbol("mysymbol2");
 mySymbol = 5;
 myBigInt = true;
 myBigInt2 = "BigInt(55239482034804234234n)";
 
-
 //? 8. Declara constantes con valores asociados a todos los tipos de datos primitivos.
 
 const lastname = "Madrid";
 const height = 1.64;
 const isStudent = true;
-/* const undefinedDate; Como es una constante debe de ser definida, pero el dato primitivo "undefined, no debe ser definido" */
+const undefinedValue1 = Symbol("mysymbol2");
 const yourSymbol = Symbol("yoursymbol");
 const valorNulo = null;
 const yourBigInt = 238402938402389402938n;
 
 //? 9. A continuación, modifica los valores de las constantes.
 
-/*
-const lastname = "Gamez";
-const height = 1.65;
-const isStudent = true;
-const undefinedDate; Como es una constante debe de ser definida, pero el dato primitivo "undefined, no debe ser definido".
-const yourSymbol = Symbol("yoursymbol");
-const valorNulo = null;
-const BigInt = 238402938402389402938n;
-
-Nota: El IDE arroja un mensaje que no es posible volver a declarar una variable con ámbito de bloque */
+lastname = "Gamez";
+height = 1.65;
+isStudent = true;
+undefinedValue1 = Symbol("mysymbol")
+yourSymbol = Symbol("yoursymbol");
+valorNulo = null;
+BigInt = 238402938402389402938n;
 
 //? 10. Comenta las líneas que produzcan algún tipo de error al ejecutarse.
 
-// Todas las líneas arrojaron error al ejecutarse porque son constantes y no puede ser reasignadas.  
-
+// Todas las líneas arrojaran error al ejecutarse porque son constantes y no puede ser reasignadas.
