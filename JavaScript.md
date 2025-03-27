@@ -70,5 +70,57 @@ JavaScript es uno de los lenguajes más usados en el mundo, lo que significa:
 - ✅ **Muchos frameworks y bibliotecas** (React, Angular, Vue.js, Node.js)
 - ✅ **Actualizaciones constantes** con nuevas funcionalidades
 
-## 🌟 Conclusión
+## Conclusión
 JavaScript es un lenguaje **versátil, potente y esencial** para el desarrollo web. Se usa en **front-end** (interfaz de usuario) y **back-end** (servidor con Node.js). Gracias a su flexibilidad y comunidad activa, sigue evolucionando y es una excelente opción para aprender y trabajar en programación.
+
+
+# Interpolación de Variables en JavaScript
+
+La interpolación de variables en JavaScript se refiere a la capacidad de insertar variables dentro de cadenas de texto de manera sencilla y legible. Esto se logra utilizando **Template Literals** (Plantillas Literales), que fueron introducidas en ECMAScript 6 (ES6).
+
+## Uso de Template Literals
+Los Template Literals se crean utilizando comillas invertidas (`` ` ``) en lugar de comillas simples o dobles.
+
+### Ejemplo básico:
+```javascript
+const nombre = "Juan";
+const edad = 25;
+console.log(`Hola, mi nombre es ${nombre} y tengo ${edad} años.`);
+```
+**Salida:**
+```
+Hola, mi nombre es Juan y tengo 25 años.
+```
+
+## Ventajas de la interpolación de variables
+1. **Mayor legibilidad**: Evita concatenaciones complejas con `+`.
+2. **Facilidad para incluir expresiones**: Se pueden realizar operaciones dentro de la interpolación.
+3. **Mejor manejo de saltos de línea**: Se pueden escribir cadenas multilínea sin necesidad de `\n`.
+
+### Ejemplo con expresiones:
+```javascript
+const a = 5;
+const b = 10;
+console.log(`La suma de ${a} y ${b} es ${a + b}.`);
+```
+**Salida:**
+```
+La suma de 5 y 10 es 15.
+```
+
+### Ejemplo de cadena multilínea:
+```javascript
+const mensaje = `Este es un mensaje
+que ocupa múltiples líneas
+sin necesidad de usar \n.`;
+console.log(mensaje);
+```
+**Salida:**
+```
+Este es un mensaje
+que ocupa múltiples líneas
+sin necesidad de usar \n.
+```
+
+## Conclusión
+La interpolación de variables con Template Literals en JavaScript facilita la manipulación de cadenas de texto, mejora la legibilidad del código y proporciona una forma más eficiente de incluir valores dinámicos en cadenas.

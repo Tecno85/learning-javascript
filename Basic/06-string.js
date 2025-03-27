@@ -9,7 +9,7 @@ let greeting = "Hola, " + myName + "!";
 console.log(greeting); // Imprime: Hola, Ivan!.
 console.log(typeof greeting); // Imprime: String.
 
-//? Longitud 
+//? Longitud
 
 console.log(greeting.length); // Imprime: 11 carácteres.
 
@@ -25,8 +25,21 @@ console.log(greeting.toUpperCase()); // Cambia a mayúscula el texto.
 console.log(greeting.toLowerCase()); // Cambia a minúscula el texto.
 console.log(greeting.indexOf("Ivan")); // Indice donde se encuentra la palabra "Ivan", indice 6.
 console.log(greeting.includes("Hola")); // Valida si está incluida la cadena de texto "Hola".
-console.log(greeting.slice(0, 7)); // Toma la posición seleccionada.  
-console.log(greeting.replace("Ivan", "Ismael")); // Reemplaza el string por otro.  
-console.log(greeting); // 
-console.log(greeting); // 
+console.log(greeting.slice(0, 7)); // Toma la posición seleccionada.
+console.log(greeting.replace("Ivan", "Ismael")); // Reemplaza el string por otro.
+
+//? Template literals (Plantillas literales): Nos permite interpolar variables y utilizar string de varias líneas.
+
+//* Este es un ejemplo de "templates literals", sin interpolación de variables
+let message = `Hola, 
+este es
+mi curso
+de JavaScript`;
+console.log(message);
+
+
+//* Este es un ejemplo de "templates literals", con interpolación de variables
+console.log(`Hola, ${myName}!`)
+
+
 
