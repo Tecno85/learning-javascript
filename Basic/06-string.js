@@ -1,4 +1,4 @@
-/*----------------
+/*-----------------
   //! Strings
 ------------------*/
 
@@ -30,16 +30,15 @@ console.log(greeting.replace("Ivan", "Ismael")); // Reemplaza el string por otro
 
 //? Template literals (Plantillas literales): Nos permite interpolar variables y utilizar string de varias líneas.
 
-//* Este es un ejemplo de "templates literals", sin interpolación de variables
+//$ Este es un ejemplo de "templates literals", sin interpolación de variables
 let message = `Hola, 
 este es
 mi curso
 de JavaScript`;
 console.log(message);
 
+//$ Este es un ejemplo de "templates literals", con interpolación de variables
+console.log(`Hola, ${myName}!`);
 
-//* Este es un ejemplo de "templates literals", con interpolación de variables
-console.log(`Hola, ${myName}!`)
-
-
-
+let email = "tecno85@gmail.com";
+console.log(`Hola ${myName}, tu email es: ${email}`);
