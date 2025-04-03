@@ -4,6 +4,7 @@ Creo este repositorio para ir documentando mi proceso de aprendizaje de JavaScri
 
 - 23-01-2025: Inicio subiendo lo realizado al nuevo repo en GitHub. 
 - 22-03-2025: Vuelvo a retormar despues de dos mese, que verguenza, :(
-- 25-03-2025: Quede por tema Strings 1:57:22
-- 27-03-2025: Quede por tema Strings 1:58:47
-- 28-03-2025: Quede por tema Conditionals 2:24:57
+- 25-03-2025: Quede por Strings 1:57:22
+- 27-03-2025: Quede por Strings 1:58:47
+- 28-03-2025: Quede por Conditionals 2:24:57
+- 01-04-2025: Quede por Mapas 3:12:20

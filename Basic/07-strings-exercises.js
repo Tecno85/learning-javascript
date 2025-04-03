@@ -1,4 +1,4 @@
-//! Clase 22 - Ejercicios: Strings
+//! Ejercicios: Strings
 
 // 1. Concatena dos cadenas de texto.
 
