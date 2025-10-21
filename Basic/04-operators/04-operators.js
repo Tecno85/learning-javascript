@@ -11,7 +11,6 @@ console.log(a + b); // Suma
 console.log(a - b); // Resta
 console.log(a * b); // Multiplación
 console.log(a / b); // División
-
 console.log(a % b); // Módulo
 console.log(a ** b); // Exponente
 
@@ -43,11 +42,11 @@ console.log(a < b);
 console.log(a >= b);
 console.log(a <= b);
 console.log(a == b);
-console.log(a == 5); // Igualdad por valor
+console.log(a == 5);     // Igualdad por valor
 console.log(a == a);
-console.log(a === 6); // Igualdad por identidad (tipo y valor) Igualdad estricta.
-console.log(a === "6"); // Igualdad por valor, pero no por tipo.
-console.log(a != 6); // Desigualdad por valor, pero no por tipo.
+console.log(a === 6);    // Igualdad por identidad (tipo y valor) Igualdad estricta.
+console.log(a === "6");  // Igualdad por valor, pero no por tipo.
+console.log(a != 6);     // Desigualdad por valor, pero no por tipo.
 console.log(a !== "6");
 console.log(0 == false); // true
 console.log(1 == false); // false

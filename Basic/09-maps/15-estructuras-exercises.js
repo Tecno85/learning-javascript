@@ -1,4 +1,4 @@
-//! Ejercicios: Estructuras
+//! Ejercicios: Estructuras de Datos
 
 // 1. Crea un array que almacene cinco animales.
 

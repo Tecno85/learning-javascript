@@ -1,0 +1,47 @@
+/* --- Estilos Base (Modo Claro) --- */
+body {
+  font-family: sans-serif;
+  background-color: #ced0d3; /* Fondo claro */
+  color: #1c1e21; /* Texto oscuro */
+
+  /* Transición suave para que el cambio no sea brusco */
+  transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+.contenedor {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.8s ease;
+}
+
+button {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* --- Estilos del Modo Oscuro --- */
+/* Estas reglas SÓLO se aplican cuando el body tiene la clase 'modo-oscuro' */
+body.modo-oscuro {
+  background-color: #18191a; /* Fondo oscuro */
+  color: #e4e6eb; /* Texto claro */
+}
+
+body.modo-oscuro .contenedor {
+  background-color: #242526;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+body.modo-oscuro button {
+  background-color: #c64bc6;
+  color: #e4e6eb;
+  border-color: #555;
+}

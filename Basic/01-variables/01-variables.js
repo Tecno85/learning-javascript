@@ -2,7 +2,7 @@
   //! Variables
 -----------------*/
 
-//var
+// var
 
 console.log(helloWorld); // undefined
 
@@ -23,15 +23,14 @@ console.log(helloJavascript); // Hello Visual Studio Code
 // const
 
 const helloWorld3 = "Hola, JavaScript 3!";
-console.log(helloWorld3); /*
+console.log(helloWorld3);
 
-/*----------------------------------------------------------------------------------------*/
-/*
-- PALABRAS RESERVADAS EN JAVASCRIPT -
+//$ Palabras Reservads en JavaScript
 
+/* 
 Los nombres de las variables deben ser descriptivos, no pueden empezar con números ni caracteres especiales (excepto guión bajo), no pueden ser iguales a las palabras reservadas en JavaScript, es recomendable usar nombres en ingles y usar la convención camelCase - lowercamelCase. 
 
-- ¿Porque no es recomendable usar la palabra reservada var para declarar variables? -
+//$ ¿Porque no es recomendable usar la palabra reservada var para declarar variables?
 
 No es recomendable usar var para declarar variables en JavaScript por varias razones:
 
@@ -43,15 +42,12 @@ No es recomendable usar var para declarar variables en JavaScript por varias raz
 
 Es preferible usar let y const:
 
-let tiene un ámbito de bloque y permite reasignación.
-const tiene un ámbito de bloque y no permite reasignación, lo que es útil para declarar constantes.
+- let tiene un ámbito de bloque y permite reasignación.
+- const tiene un ámbito de bloque y no permite reasignación, lo que es útil para declarar constantes.
 
-- DIFERENCIAS ENTRE DECLARACIÓN, INICIALIZACIÓN Y ASIGNACIÓN DE VARIABLES -
+//$ Diferecias entre declaración, inicilización y asignación de variables
 
 1. Declaración: Definir una variable.
 2. Inicialización: Asignar un valor inicial a una variable en el momento de su declaración.
 3. Asignación: Dar un valor a una variable, ya sea en el momento de su declaración (inicialización) o posteriormente.
 */
-/* --------------------------------------------------------------------------------------*/
-
-// Quede en el minuto 57:00

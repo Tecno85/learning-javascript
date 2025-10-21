@@ -2,30 +2,30 @@
   //! Datos Primitivos
 ------------------------*/
 
-// Cadena de texto (String)
+// 1. Cadena de texto (String)
 let myName = "Ivan Madrid";
-let alias = "Ivancho";
-let email = "tecno85@gmail.com";
+let alias = 'Ivancho';
+let email = `tecno85@gmail.com`;
 
-// Números (number)
+// 2. Números (number)
 let age = 39; // Entero
 let height = 1.64; // Decimal
 
-// Booleanos (booleans)
+// 3. Booleanos (booleans)
 let isTeacher = true;
 let isStudent = false;
 
-// Undefined (no definida)
-let undefinedValue;
+// 4. Undefined (no definida)
+let undefinedValue; // No tiene un valor definido
 console.log(undefinedValue);
 
-// Null (sin valor, nula)
-let nullValue = null; // No tiene un valor asignado de manera intencional.
+// 5. Null (sin valor, nula)
+let nullValue = null; // No tiene un valor asignado de manera intencional
 
-// Symbol
-let mySymbol = Symbol("mysymbol"); // Representan valores o identificadores únicos, usados como identificadores de propiedades de futuros objetos. Estos evitan colisiones.
+// 6. Symbol
+let mySymbol = Symbol("mysymbol"); // Representan valores o identificadores únicos, usados como identificadores de propiedades de futuros objetos. Estos evitan colisiones
 
-// BigInt
+// 7. BigInt
 let myBigInt = BigInt(7239458739485679348759384759348759348579347593n);
 let myBigInt2 = 7239458739485679348759384759348759348579347593n;
 // Son números enteros extremadamente grandes.
@@ -45,4 +45,4 @@ console.log(typeof mySymbol);
 console.log(typeof myBigInt);
 console.log(typeof myBigInt2);
 
-// Quede en el minuto 1:17:30
+// Quedé por el minuto 17

@@ -7,7 +7,9 @@
 //? 2. Escribe un comentario de varias líneas.
 
 /*
-Este es un comentario de varias líneas.
+Este es un 
+comentario de 
+varias líneas.
 */
 
 //? 3. Declara variables con valores asociados a todos los datos de tipo primitivos.
@@ -87,7 +89,7 @@ const yourBigInt = 238402938402389402938n;
 lastname = "Gamez";
 height = 1.65;
 isStudent = true;
-undefinedValue1 = Symbol("mysymbol")
+undefinedValue1 = Symbol("mysymbol");
 yourSymbol = Symbol("yoursymbol");
 valorNulo = null;
 BigInt = 238402938402389402938n;
