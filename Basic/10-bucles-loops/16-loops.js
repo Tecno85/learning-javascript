@@ -2,26 +2,122 @@
   //! Loops - Bucles
 ----------------------*/
 
+/*  
+Un bucle es una estructura de control que repite un bloque de código mientras se cumpla una condición.
+  
+Un bucle es una estructura de control que repite un bloque de código mientras una condición sea verdadera.
+
+Es una estructura de control que se utiliza para repetir un bloque de código un número específico de veces. Es ideal cuando conoces de antemano cuántas repeticiones necesitas realizar.
+
+Es una herramienta fundamental en JavaScript para realizar tareas repetitivas de manera eficiente.
+*/
+
+//$ Sintaxis: Partes clave de cualquier bucle
+
+/* Todo bucle tiene 3 elementos esenciales: 
+
+1. Inicio => desde dónde empieza
+2. Condición => cuándo se repite
+3. Actualización => qué cambia para que el bucle termine
+
+Si falta la actualización el bucle es Infinito */
+
+//$ ¿Por qué existen los bucles? 
+
+// Sin bucle, tendría que escribir esto:
+
+console.log('Hola');
+console.log('Hola');
+console.log('Hola');
+console.log('Hola');
+console.log('Hola');
+
+// Con un bucle:
+
+for (let i = 0; i <= 5; i++) {
+  console.log('Hola');
+}
+// Menos código, más claro, más eficiente
+
+//$ Los más usados en JavaScript 
+
+/* 
+- for
+- while
+- for...of
+*/
+
+//$ Son esenciales para:
+
+/* 
+- Arrays
+- Canvas
+- DOM
+- Datos
+- Juegos y animaciones
+*/
+
+/*--------------------------------------------------------------------------------------*/
+
 //* Bucle - for -
 
-/*
-Es una estructura de control que se utiliza para repetir un bloque de código un número específico de veces. Es ideal cuando conoces antemano cuántas repeticiones necesitas realizar.
+/* 
 
-ES una herramienta fundamental en JavaScript para realizar tareas repetitivas de manera eficiente. 
+- Se usa cuando se cuántas veces quiero repetir algo. 
+- Usa el bucle for cuando necesites control explícito sobre las repeticiones.
 
+Especialmente para:
+- Recorrer Arreglos
+- Contar
+- Canvas(dibujar píxeles, líneas, grids)
 
-// Sintaxis
+//* Casos de Uso:
+
+1. Cuando conozco el inicio y el final(aunque el final venga de length)
+for (let i = 0; i < array.length; i++) {
+  console.log(array[i]);
+}
+
+2. Cuando necesite el índice (Si necesito la posición)
+for (let i = 0; i < nombres.length; i++) {
+  console.log(`Posición ${i}: ${nombres[i]}`);
+}
+
+3. Cuando el incremento no es de 1 en 1
+for (let i = 0; i <= 20; i += 2) {
+  console.log(i);
+}
+
+4. Cuando necesito "break" o "continue"
+for (let i = 0; i < array.length; i++) {
+  if (array[i] === 0) break;
+}
+
+//* Cuando no es la mejor opción:
+
+1. Solo recorrer valores sin índice. Mejor (for..of):
+for (const valor of array) {
+  console.log(valor);
+}
+
+2. Transformar arrays:
+array.map(valor => valor * 2);
+
+*/
 
 for (inicialización; condición; actualización) {
   // Código a ejecutar en cada iteración
 }
 
+/*
 
-Inicialización: Se ejecuta una vez al comienzo del bucle. Aquí se suele declarar e inicializar una variable de control. 
-Condición: Se evalua antes de cada iteración. Si es "true", el bucle continúa; si es "false", el bucle se detiene. 
-Ejecución del bloque: Si la condión es verdadera, se ejecuta el código dentro del bloque.
-Actualización: Se ejecuta al final de cada iteración. Normalmente se utiliza para modificar la variable de control. 
+1. Inicialización: Se ejecuta una vez al comienzo del bucle. Aquí se suele declarar e inicializar una variable de control. 
+2. Condición: Se evalua antes de cada iteración. Si es "true", el bucle continúa; si es "false", el bucle se detiene. 
+3. Ejecución del bloque: Si la condión es verdadera, se ejecuta el código dentro del bloque.
+4. Actualización: Se ejecuta al final de cada iteración. Normalmente se utiliza para modificar la variable de control. 
+
 Nota: Una iteración es una ejecución de un bloque de código dentro de un bucle. 
+
 */
 
 for (let i = 0; i < 5; i++) {
@@ -33,6 +129,8 @@ const numbers = [1, 2, 3, 4, 5];
 for (i = 0; i < numbers.length; i++) {
   console.log(`Número: ${numbers[i]}`);
 }
+
+/*--------------------------------------------------------------------------------------*/
 
 //* Bucle - while -
 
@@ -63,6 +161,8 @@ Diferencia con "for":
 - Usa "while" cuando no sabes cuantas iteraciones necesitas, pero tienes una condición clara. 
 - Usa "for" cuando sabes exactamente cuántas veces quieres repetir el bloque de código.  
 */
+
+/*--------------------------------------------------------------------------------------*/
 
 //* Bucle "do while"
 

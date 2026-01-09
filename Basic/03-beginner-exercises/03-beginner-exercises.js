@@ -68,11 +68,11 @@ myBigInt2 = BigInt(55239482034804234234n);
 firstName = 8;
 age = "Ismael";
 isMarried = 10;
-nullValue = false;
+nullValue = BigInt(5473095840574566754563453453n);
 undefinedValue = Symbol("mysymbol2");
-mySymbol = 5;
+mySymbol = undefined;
 myBigInt = true;
-myBigInt2 = "BigInt(55239482034804234234n)";
+myBigInt2 = null;
 
 //? 8. Declara constantes con valores asociados a todos los tipos de datos primitivos.
 
@@ -96,4 +96,4 @@ BigInt = 238402938402389402938n;
 
 //? 10. Comenta las líneas que produzcan algún tipo de error al ejecutarse.
 
-// Todas las líneas arrojaran error al ejecutarse porque son constantes y no puede ser reasignadas.
+// Las líneas que arrojaran error al ejecutarse van de la 89 a la 95 porque son constantes y sus valores no puede ser reasignados o modificados.

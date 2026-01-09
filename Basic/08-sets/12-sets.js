@@ -3,7 +3,7 @@
 -------------*/
 
 /*
-Set: Es una estructura de datos que almacena valores únicos. No permite valores duplicados. Si se agregan dos valores iguales, el "set" no tendra encuenta el valor duplicado.  
+Set: Es una estructura de datos (colecciones) que almacena valores únicos. No permite valores duplicados. Si se agregan dos valores iguales, el "set" no tendra encuenta el valor duplicado.  
 
 Carácteristicas Principales:
 
@@ -12,6 +12,13 @@ Carácteristicas Principales:
 - Iteración: Es posible recorrer un set, pero no es posible acceder a sus elementos por índice como en un array. 
 
 Los Sets son útiles cuando necesitas trabajar con valores únicos y no te importa el orden de los elementos. Son ideales para eliminar duplicados de un array o para realizar operaciones como uniones e intersecciones.
+
+Regla Mental Rápida:
+
+¿Importa que no haya duplicados y solo saber si algo existe?
+Usar Set
+¿Importa el orden o el índice?
+Usar Array
 */
 
 //* Declaración

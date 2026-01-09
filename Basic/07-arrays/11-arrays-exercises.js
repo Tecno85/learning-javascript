@@ -2,7 +2,7 @@
 
 //$ 1. Crear un array y acceder a sus elementos.
 
-let hijos = ["Ismael", "Esteban"];
+let hijos = ['Ismael', 'Esteban'];
 
 //* Nota: De esta manera se accede al elemento cuando se conoce la cantidad exacta de estos.
 console.log(hijos[0]);
@@ -13,7 +13,7 @@ console.log(hijos[hijos.length - 1]);
 
 //$ 2. Modificar elementos de un array.
 
-let colores = ["rojo", "azul", "verde", "amarillo"];
+let colores = ['rojo', 'azul', 'verde', 'amarillo'];
 
 /*
 - Cambia el tercer elemento a morado.
@@ -22,11 +22,11 @@ let colores = ["rojo", "azul", "verde", "amarillo"];
 */
 
 // Cambiando el tercer elemento por el color morado
-colores[2] = "morado";
+colores[2] = 'morado';
 console.log(colores);
 
 // Agregando naranja al final del array.
-colores.push("naranja");
+colores.push('naranja');
 
 // Mostando el array actualizado en la consola.
 console.log(colores);
@@ -58,11 +58,19 @@ console.log(numeros);
 
 let numbers = [4, 2, 9, 1, 7, 6];
 
-console.log(numbers.sort());
+console.log(numbers.sort((a, b) => a - b));
 
 //$ 5. Buscar un elemento en un array.
 
-let paises = ["Mexico", "Argentina", "España", "Colombia", "Chile"];
+let paises = ['Mexico', 'Argentina', 'España', 'Colombia', 'Chile'];
 
-console.log(paises.includes("Colombia"));
-console.log(paises.includes("Polonia"));
+let existe = false;
+
+for (let i = 0; i < paises.length; i++) {
+  if (paises[0] === 'Mexico') {
+    existe = true;
+    break;
+  }
+}
+
+console.log(existe);

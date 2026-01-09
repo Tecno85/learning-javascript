@@ -3,20 +3,22 @@
 ---------------*/
 
 /* 
-Arrays: Son estructuras que permiten almacenar múltiples valores en una sola variable. Son como listas que pueden contener diferentes tipos de datos, como números, strings, booleanos y otros arrays. 
+Arrays: Son estructuras de datos(objeto especializado) que permiten almacenar múltiples valores(datos) en una sola variable. Son como listas que pueden contener diferentes tipos de datos, como números, strings, booleanos y otros arrays. 
 
 Estructuras de Datos: Permite almacenar varios valores en una variable.
 
-Características Principales:
-- Se definen usando [] (corchetes).
-- Cada elemento tiene un índice, comenzando desde 0.
-- Se puede modificar y recorrer fácilmente. 
-
 Ejemplo:
+*/
 
 let frutas = ["Manzanas", "Bananas", "Naranjas"];
 console.log(frutas[0]); // Imprime Manzanas
 console.log(frutas.length()); // Imprime la cantidad de elementos (3)
+
+/* 
+Características Principales:
+- Se definen usando [] (corchetes).
+- Cada elemento tiene un índice, comenzando desde 0 (ordenado).
+- Se puede modificar y recorrer fácilmente. 
 */
 
 // Declaración
@@ -34,7 +36,7 @@ myOtherArray = new Array("Ivan", true, 4);
 console.log(myArray);
 console.log(myOtherArray);
 
-// Métodos Comunes
+// Métodos Comunes: Los métodos comunes son el push() y el pop()
 
 myArray = [];
 

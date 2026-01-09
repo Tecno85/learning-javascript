@@ -12,6 +12,7 @@ console.log(typeof greeting); // Imprime: String.
 //$ Longitud
 
 console.log(greeting.length); // Imprime: 11 carácteres.
+// .length es una propiedad que se aplica a la variable (objeto) "greeting"
 
 //$ Acceso a carácteres
 

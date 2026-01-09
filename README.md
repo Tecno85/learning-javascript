@@ -9,6 +9,14 @@ Creo este repositorio para ir documentando mi proceso de aprendizaje de JavaScri
 - 28-03-2025: Quede por Conditionals 2:24:57
 - 01-04-2025: Quede por Mapas 3:12:20. 
 - 01-04-2025: Desde esta fecha deje de estudiar.
-- 19-04-2025: En esta fecha vuelvo a retomar el estudio. 
+- 19-10-2025: En esta fecha vuelvo a retomar el estudio. 
 - Voy a comprometerme a estudiar 1 hora al día y ser constante hasta dominar las bases del lenguaje. 
-- 21-04-2025: El dia 20/10/2025 no estuie, hoy me obligue a estudiar 1 hora, estoy contento por eso. Voy a sguir en el nombe de Jesus. Un paso a la vez. :).  
+- 21-10-2025: El dia 20/10/2025 no estuie, hoy me obligue a estudiar 1 hora, estoy contento por eso. Voy a sguir en el nombe de Jesus. Un paso a la vez. :).  
+- 18-11-2025: Vuelvo a empezar el estudio, me inscribi en MoureDev Pro. 
+- 20-11-2025: Termine Operadores. Mañana Dios mediante sigo con los ejercicios. :)
+- 24-11-2025: Comienzo a estudiar "Strings". Quede 4:49
+- 25-11-2025: Sigo haciendo los ejercicios propuesto, para interiorizar los mismos.
+- 26-11-2025: Sigo realizando los ejercicios que me faltan.
+- 27-11-2025: Comienzo a estudiar los ejercicios de Condicionales. 
+- 28-11-2025: Empiezo a realizar los ejercicios de Condicionales.
+- 29-11-2025: Sigo realizando los ejercicios de Condicionales, para interiorizar las bases. 

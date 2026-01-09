@@ -16,6 +16,7 @@ let isTeacher = true;
 let isStudent = false;
 
 // 4. Undefined (no definida)
+// Es una variable declarada, a la cual no se a asignado un valor
 let undefinedValue; // No tiene un valor definido
 console.log(undefinedValue);
 
@@ -45,4 +46,4 @@ console.log(typeof mySymbol);
 console.log(typeof myBigInt);
 console.log(typeof myBigInt2);
 
-// Quedé por el minuto 17
+

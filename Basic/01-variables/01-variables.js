@@ -50,4 +50,5 @@ Es preferible usar let y const:
 1. Declaración: Definir una variable.
 2. Inicialización: Asignar un valor inicial a una variable en el momento de su declaración.
 3. Asignación: Dar un valor a una variable, ya sea en el momento de su declaración (inicialización) o posteriormente.
+4. Reasignación: Cuando se cambia el valor de una variable que tenia ya un valor previo. Es darle un nuevo valor.
 */

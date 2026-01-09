@@ -1,54 +1,58 @@
 //! Ejercicios: Strings
 
-// 1. Concatena dos cadenas de texto.
+// 1. Concatena dos cadenas de texto
 
-let firstName = "Esteban";
-let lastName = "Madrid";
+let firstName = 'Ivan';
+let lastName = 'Madrid';
 
-console.log(`Mi nombre completo es, "${firstName} ${lastName}"`);
+let fullName = 'Mi nombre es: ' + firstName + ' ' + lastName;
+console.log(fullName);
 
-// 2. Muestra la longitud de una cadena de texto.
+// 2. Muestra la longitud de una cadena de texto
 
-let fullName = `Mi hijo se llama Esteban`;
 console.log(fullName.length);
 
-// 3. Muestra el primer y último carácter de un string.
+// 3. Muestra el primer y el último carácter de un String
 
-console.log(fullName[0]);
-console.log(fullName[fullName.length - 1]);
+console.log(
+  `El primer carácter es: ${fullName[0]} y el último es: ${
+    fullName[fullName.length - 1]
+  }`
+);
 
-// 4. Convierte a mayúsculas y minúsculas un string.
+// 4. Convierte a Mayúscula y a Minúscula un string
 
-let minuscula = "ismael";
-let mayuscula = "ESTEBAN";
+console.log(fullName.toUpperCase());
+console.log(fullName.toLowerCase());
 
-console.log(minuscula.toUpperCase());
-console.log(mayuscula.toLowerCase());
+// 5. Crea una cadena de texto con varias líneas
 
-// 5. Crea una cadena de texto en varias líneas.
+let variasLineas = `Esta es una
+cadena de texto 
+con varias 
+líneas`;
+console.log(variasLineas);
 
-console.log(`Esta es 
-una cadena de 
-texto de varias
- líneas.`);
+// 6. Interpola el valor de una variable en un String.
 
-// 6. Interpola el valor de una variable en un string.
-
-console.log(`Mi hijo menor se llama ${firstName} ${lastName}`);
+let fullName2 = `My name is: ${firstName} ${lastName}`;
+console.log(fullName2);
 
 // 7. Reemplaza todos los espacios en blanco de un string por guiones.
 
-let hijoMayor = `Mi hijo mayor se llama Ismael Madrid Gamez`;
-console.log(hijoMayor.replace(/ /g, "-"));
+console.log(fullName.replaceAll(' ', '_'));
 
-// 8. Comprueba si una cadena de texto contiene una palabra concreta.
+// 8. Comprueba si una cadena de texto tiene una palabra concreta.
 
-console.log(hijoMayor.includes("Ivan"));
+console.log(fullName.includes('Ivan'));
+console.log(fullName.includes('Carlos'));
 
-// 9. Comprueba si dos strings son iguales.
+// 9. Comprueba si dos Strings son iguales
 
-console.log(firstName === "Esteban");
+console.log(fullName === fullName2);
+console.log(fullName2 === 'My name is: Ivan Madrid');
 
-// 10. Comprueba si dos strings tienen la misma longitud
+// 10. Comprueba si dos strings tienen la misma longitud.
 
-console.log(firstName.length == lastName.length);
+console.log(fullName.length === fullName2.length);
+

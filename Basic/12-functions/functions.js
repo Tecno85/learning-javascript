@@ -122,6 +122,6 @@ mySet = new Set(["Ivan", "Dario", "Madrid", "Daza", 39, "tecno85@gmail.com"]);
 
 mySet.forEach((value) => console.log(value));
 
-
-
 // Quede por el minuto 3:56
+
+
