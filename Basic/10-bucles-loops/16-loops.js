@@ -1,6 +1,6 @@
-/*---------------------
-  //! Loops - Bucles
-----------------------*/
+//$------------------------------------------------------------------------------------/
+//!                               Loops - Bucles
+//$------------------------------------------------------------------------------------/
 
 /*  
 Un bucle es una estructura de control que repite un bloque de código mientras se cumpla una condición.
@@ -22,7 +22,7 @@ Es una herramienta fundamental en JavaScript para realizar tareas repetitivas de
 
 Si falta la actualización el bucle es Infinito */
 
-//$ ¿Por qué existen los bucles? 
+//$ ¿Por qué existen los bucles?
 
 // Sin bucle, tendría que escribir esto:
 
@@ -39,7 +39,7 @@ for (let i = 0; i <= 5; i++) {
 }
 // Menos código, más claro, más eficiente
 
-//$ Los más usados en JavaScript 
+//$ Los más usados en JavaScript
 
 /* 
 - for
@@ -57,9 +57,9 @@ for (let i = 0; i <= 5; i++) {
 - Juegos y animaciones
 */
 
-/*--------------------------------------------------------------------------------------*/
-
-//* Bucle - for -
+//$------------------------------------------------------------------------------/
+//!                              Bucle - for
+//$------------------------------------------------------------------------------/
 
 /* 
 
@@ -71,7 +71,7 @@ Especialmente para:
 - Contar
 - Canvas(dibujar píxeles, líneas, grids)
 
-//* Casos de Uso:
+//$ Casos de Uso:
 
 1. Cuando conozco el inicio y el final(aunque el final venga de length)
 for (let i = 0; i < array.length; i++) {
@@ -93,7 +93,7 @@ for (let i = 0; i < array.length; i++) {
   if (array[i] === 0) break;
 }
 
-//* Cuando no es la mejor opción:
+//$ Cuando no es la mejor opción:
 
 1. Solo recorrer valores sin índice. Mejor (for..of):
 for (const valor of array) {
@@ -133,13 +133,20 @@ for (i = 0; i < numbers.length; i++) {
   console.log(`Número: ${numbers[i]}`);
 }
 
-/*--------------------------------------------------------------------------------------*/
-
-//* Bucle - while -
+//$-------------------------------------------------------------------------------/
+//!                              Bucle - while
+//$-------------------------------------------------------------------------------/
 
 /*
 Es una estructura de control que repite un bloque de código mientras una condición sea verdadera. Es útil cuando no sabes exactamente cuantas veces necesitas repetir algo, pero sí sabes la condición que debe cunplirse para continuar. 
 */
+
+//$ Sintaxis Básica
+
+while (condicion) {
+  // código que se repite
+}
+// Si la condición es false desde el inicio, no se ejecuta ni una sola vez
 
 /*
 Cómo funciona:
@@ -147,7 +154,7 @@ Cómo funciona:
   - Si es "true", se ejecuta el bloque de código dentro del bucle.
   - Si es "false", el bucle se detiene.
 2. Iteración: Cada vez que el bloque de código se ejecuta, se llama una iteración.
-3. Cuidado con bucles infinitos: Si la condición nunca se vuelve ", el bucle seguirá ejecutándose indefinidamente. 
+3. Cuidado con bucles infinitos: Si la condición nunca se vuelve "fale", el bucle seguirá ejecutándose indefinidamente. 
 
 Ejemplo básico: 
 */
@@ -159,15 +166,54 @@ while (contador < 5) {
   contador++; // Incrementamos el contador para evitar un bucle infinito.
 }
 
-/*
-Diferencia con "for":
-- Usa "while" cuando no sabes cuantas iteraciones necesitas, pero tienes una condición clara. 
-- Usa "for" cuando sabes exactamente cuántas veces quieres repetir el bloque de código.  
-*/
+//$ Diferencia con "for":
 
-/*--------------------------------------------------------------------------------------*/
+// - Usa "while" cuando no sabes cuantas veces se va a repetir el código (repeticiones iniciertas).
+// - Ideal para validaciones
+// - Condición manda (se evalua antes)
 
-//* Bucle "do while"
+// - Usa "for" cuando sabes exactamente cuántas veces quieres repetir el bloque de código.
+// - Inicio, fin y pasos claros
+// - Ideal para arrays
+
+//$ Casos típicos
+
+// 1. Cuando depende de una condición externa
+
+while (usuarioNoValido) {
+  pedirDatos();
+}
+// No se sabe cuantas veces el usuario se va a equivocar
+
+// 2. Cuando busca algo y paras al encontrarlo
+
+let i = 0;
+
+while (i < array.length) {
+  if (array[i] === 0) break;
+  i++;
+}
+// No se en que posición estará el 0
+
+// 3. Cuando el final no es un número fijo = No puedo decir de antemano algo como: "esto se va a repetir 10 veces" o "esto se va a repetir hasta la posición 5"
+
+let numero = Math.random();
+
+while (numero < 0.9) {
+  numero = Math.random();
+}
+
+//!-------------------------------------------------------------------------------/
+//$ Regla mental definitiva
+// - Si no puedo responder: "¿Cuántas veces se repite?" => usa "while".
+// - Depende de una condición, no de un contador.
+// - Si puedes escribirlo naturalmente como "desde....hasta" => for
+// - Si lo piensas como "mientras pase esto..." => while
+//!-------------------------------------------------------------------------------/
+
+//$----------------------------------------------------------------------------/
+//!                             Bucle - do while
+//$----------------------------------------------------------------------------/
 
 // Es una variante del bucle "while" que garantiza que el bloque de código se ejecute al menos una vez, independientemente de la condición.
 
