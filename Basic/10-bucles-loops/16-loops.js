@@ -112,8 +112,11 @@ for (inicialización; condición; actualización) {
 /*
 
 1. Inicialización: Se ejecuta una vez al comienzo del bucle. Aquí se suele declarar e inicializar una variable de control. 
+
 2. Condición: Se evalua antes de cada iteración. Si es "true", el bucle continúa; si es "false", el bucle se detiene. 
+
 3. Ejecución del bloque: Si la condión es verdadera, se ejecuta el código dentro del bloque.
+
 4. Actualización: Se ejecuta al final de cada iteración. Normalmente se utiliza para modificar la variable de control. 
 
 Nota: Una iteración es una ejecución de un bloque de código dentro de un bucle. 

@@ -20,3 +20,5 @@ Creo este repositorio para ir documentando mi proceso de aprendizaje de JavaScri
 - 27-11-2025: Comienzo a estudiar los ejercicios de Condicionales. 
 - 28-11-2025: Empiezo a realizar los ejercicios de Condicionales.
 - 29-11-2025: Sigo realizando los ejercicios de Condicionales, para interiorizar las bases. 
+- 9-01-2026: Estudiando Loop / Bucles.
+- 10-01-2025: Termino de estudiar el Bucle "for" y comienzo con el Bucle "while"
