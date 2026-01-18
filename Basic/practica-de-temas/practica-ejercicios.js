@@ -1,37 +1,48 @@
 //! Ejercicios: Bucle "while"
 
-// Ejercicio 1: Contar del 1 al 10: Escribe un programa que imprima los números del 1 al 10 usando un bucle while.
-// let i = 1;
 
-// while (i <= 10) {
-//   console.log(i);
-//   i++;
-// }
 
-// Ejercicio 2: Sumar los primeros 10 números naturales: Calcula la suma de los números del 1 al 10 usando while y muestra el resultado.
+/*
+  Ejercicio 2: Calcula la suma de los números del 1 al 10 usando while y muestra el resultado.
+  Patrón: Acumulador
+  Fórmula verificable: n(n+1)/2 = 10(11)/2 = 55
+*/
 
-// let i = 1;
-// let contador = 0;
+let suma = 0;        // Acumulador inicializado en 0
+let counter = 1;     // Primer número a sumar
 
-// while (i <= 10) {
-//   contador += i;
-//   i++;
-// }
-// console.log(`La suma de los números es: ${contador}`);
+// Bucle: suma cada número del 1 al 10
+while (counter <= 10) {
+  suma += counter;  // Acumula el valor actual
+  counter++;        // Pasa al siguiente número
+}
 
-// Ejercicio 3: Tabla de multiplicar del 5: Muestra la tabla de multiplicar del 5 (del 1 al 10) usando un bucle while.
+console.log(`Total: ${suma}`); // Muestra 55
 
-// const numero = 5;
-// let i = 1;
+/*
+  Ejercicio 3: Tabla de multiplicar del 5
+  Objetivo: Practicar bucles while con multiplicación
+  Salida: Tabla del 5 (del 1 al 10)
+*/
 
-// console.log(`Tabla de Multiplicar del número ${numero}`);
+let number = 5;      // Número base de la tabla
+let multiplier = 1;  // Multiplicador (1 al 10)
 
-// while (i <= 10) {
-//   console.log(`${numero} x ${i} = ${numero * i}`);
-//   i++;
-// }
+console.log('Tabla de Multiplicar del Número 5');
+
+// Itera del 1 al 10 mostrando cada multiplicación
+while (multiplier<= 10) {
+  console.log(`${number} * ${multiplier} = ${number * multiplier}`); 
+  multiplier++;
+}
 
 // Ejercicio 4: Cuenta regresiva: Muestra una cuenta regresiva del 10 al 1 y luego imprime "¡Despegue!".
+
+
+
+
+
+
 
 // let i = 10;
 
@@ -74,24 +85,47 @@ console.log(factorial);
 
 // Ejercicio 8: Serie Fibonacci: Muestra los primeros 8 números de la serie Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13
 
-let i = 0;
-let primerNumero = 0;
-let segundoNumero = 1;
-let tercerNumero = 0;
+// let contador = 1;
+// let a = 0;
+// let b = 1;
 
-while (i <= 7) {
-  console.log(primerNumero);
-  i++;
-  tercerNumero = primerNumero + segundoNumero;
-  primerNumero = segundoNumero;
-  segundoNumero = tercerNumero;
-}
+// while (contador <= 8) {
+//   console.log(a);
 
-// Ejercicio 9: Suma de dígitos: Calcula la suma de los dígitos de un número (por ejemplo, para 123: 1+2+3 = 6)
+//   let c = a + b;
+//   a = b;
+//   b = c;
+
+//   contador++;
+// }
+
+// Ejercicio 9: Suma de dígitos: Calcula la suma de los dígitos de un número (por ejemplo, para 123: 1+2+3 = 6
+
+// let suma = 0;
+// let numero = 123;
+
+// while (numero > 0) {
+//   suma = suma + (numero % 10); // Extrae el último dígito y lo suma
+//   numero = Math.floor(numero / 10); // Elimina el último dígito
+
+// }
+// console.log(suma);
 
 // Ejercicio 10: Divisibilidad: Encuentra el primer número que sea divisible tanto por 7 como por 11
 
+// let numeroElegido = 1;
+
+// while (true) {
+//   if (numeroElegido % 7 == 0 && numeroElegido % 11 == 0) {
+//     console.log(numeroElegido);
+//     break;
+//   }
+//   numeroElegido++;
+// }
+
 /*
+
+
 
 Ejercicio 1: Contador controlado
 

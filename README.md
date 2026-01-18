@@ -24,4 +24,5 @@ Creo este repositorio para ir documentando mi proceso de aprendizaje de JavaScri
 - 10-01-2026: Termino de estudiar el Bucle "for" y comienzo con el Bucle "while".
 - 11-01-2026: Comienzo a realizar los ejercicios de while
 - 14-01-2026: Realizando ejercicio de Fibonacci: Que palera me metio. :( Pero lo entiendo porque lo entiendo. :)
+- 15-01-2026: Gracias a Dios entendí el ejercicio de Fibonacci y paso al siguiente. "Suma de dígitos de un número" :)
    

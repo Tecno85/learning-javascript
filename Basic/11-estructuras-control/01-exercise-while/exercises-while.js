@@ -1,14 +1,15 @@
 //! Ejercicios: Bucle "while"
 
 // Ejercicio 1: Contar del 1 al 10: Escribe un programa que imprima los números del 1 al 10 usando un bucle while.
+// Objetivo: Practiacr bucle while con incremento simple
 
-/*
-let contador = 1;
-while (contador <= 10) {
-  console.log(contador);
-  contador++;
+let counter = 1; // Inicio: primer número a mostrar
+
+// Bucle: se repite mientras contador sea menor o igual a 10
+while (counter <= 10) {
+  console.log(`Número: ${counter}`); // Muestra cada número de la secuencia
+  counter++; // Incremento: avanza al siguente número
 }
-*/
 
 // Ejercicio 2: Sumar los primeros 10 números naturales: Calcula la suma de los números del 1 al 10 usando while y muestra el resultado.
 
@@ -75,8 +76,6 @@ while (a >= 1) {
 
 console.log(factorial);
 
-
-
 // Ejercicio 8: Serie Fibonacci: Muestra los primeros 8 números de la serie Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13
 
 /*
@@ -84,28 +83,18 @@ Conceptos Básicos
 La secuencia Fibonacci es una serie donde cada número es la suma de los dos anteriores: 0, 1, 2, 3, 5, 8, 13...
 */
 
-//$ Serie Fibonacci
-console.log('Serie Fibonacci');
+let contador = 1;
+let a = 0;
+let b = 1;
 
-//$ Inicializamos las variables
-let contar = 0;
-let numeroAnterior = 0; // Primer número de la seria
-let numeroActual = 1; // Segundo número de la serie
-let resultado = []; // Array para almacenar la secuencia
+while (contador <= 8) {
+  console.log(a);
 
-//$ Generamos los primeros 8 números
-while (contar < 8) {
-  //$ Agregamos el número anterior a nuestra secuencia
-  resultado.push(numeroAnterior);
+  let c = a + b;
+  a = b;
+  b = c;
 
-  //$ Calculamos el siguiente número de Fibonacci
-  let numeroSiguiente = numeroAnterior + numeroActual;
-
-  //$ Actualizamos las variables para la segunda iteración
-  numeroAnterior = numeroActual;
-  numeroActual = numeroSiguiente;
-
-  contar++;
+  contador++;
 }
 
 //$ Mostramos toda la secuencia completa
