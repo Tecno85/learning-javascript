@@ -6,23 +6,23 @@
 
 console.log(helloWorld); // undefined
 
-var helloWorld = "Hola Mundo";
+var helloWorld = 'Hola Mundo';
 console.log(helloWorld); // Hola Mundo
 
-var helloWorld = "Hello Ivan";
+var helloWorld = 'Hello Ivan';
 console.log(helloWorld); // Hello Ivan
 
 // let
 
-let helloJavascript = "Hello JavaScript";
+let helloJavascript = 'Hello JavaScript';
 console.log(helloJavascript); // Hello JavaScript
 
-helloJavascript = "Hello Visual Studio Code";
+helloJavascript = 'Hello Visual Studio Code';
 console.log(helloJavascript); // Hello Visual Studio Code
 
 // const
 
-const helloWorld3 = "Hola, JavaScript 3!";
+const helloWorld3 = 'Hola, JavaScript 3!';
 console.log(helloWorld3);
 
 //$ Palabras Reservads en JavaScript
@@ -52,3 +52,5 @@ Es preferible usar let y const:
 3. Asignación: Dar un valor a una variable, ya sea en el momento de su declaración (inicialización) o posteriormente.
 4. Reasignación: Cuando se cambia el valor de una variable que tenia ya un valor previo. Es darle un nuevo valor.
 */
+
+

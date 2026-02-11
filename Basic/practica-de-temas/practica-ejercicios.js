@@ -1,141 +1,5 @@
-//! Ejercicios: Bucle "while"
-
-
-
 /*
-  Ejercicio 2: Calcula la suma de los números del 1 al 10 usando while y muestra el resultado.
-  Patrón: Acumulador
-  Fórmula verificable: n(n+1)/2 = 10(11)/2 = 55
-*/
-
-let suma = 0;        // Acumulador inicializado en 0
-let counter = 1;     // Primer número a sumar
-
-// Bucle: suma cada número del 1 al 10
-while (counter <= 10) {
-  suma += counter;  // Acumula el valor actual
-  counter++;        // Pasa al siguiente número
-}
-
-console.log(`Total: ${suma}`); // Muestra 55
-
-/*
-  Ejercicio 3: Tabla de multiplicar del 5
-  Objetivo: Practicar bucles while con multiplicación
-  Salida: Tabla del 5 (del 1 al 10)
-*/
-
-let number = 5;      // Número base de la tabla
-let multiplier = 1;  // Multiplicador (1 al 10)
-
-console.log('Tabla de Multiplicar del Número 5');
-
-// Itera del 1 al 10 mostrando cada multiplicación
-while (multiplier<= 10) {
-  console.log(`${number} * ${multiplier} = ${number * multiplier}`); 
-  multiplier++;
-}
-
-// Ejercicio 4: Cuenta regresiva: Muestra una cuenta regresiva del 10 al 1 y luego imprime "¡Despegue!".
-
-
-
-
-
-
-
-// let i = 10;
-
-// while (i >= 1) {
-//   console.log(i);
-//   i--;
-// }
-// console.log('¡Despegue!');
-
-// Ejercicio 5: Números pares: Muestra todos los números pares del 2 al 20 usando un bucle while.
-
-// let numeroPar = 2;
-
-// while (numeroPar <= 20) {
-//   console.log(numeroPar);
-//   numeroPar += 2;
-// }
-
-// Ejercicio 6: Múltiplos de 3: Imprime todos los múltiplos de 3 que sean menores a 30.
-
-// let multiplo = 3;
-
-// while (multiplo < 30) {
-//   console.log(multiplo);
-//   multiplo += 3;
-// }
-
-// Ejercicio 7: Factorial: Calcula el factorial de 5 (5! = 5×4×3×2×1 = 120) usando un bucle while.
-/*
-let numero = 5; // Número a calcular (contador)
-let factorial = 1; // Resultado acumulado (acumulador del resultado)
-
-while (numero >= 1) {
-  factorial *= numero;
-  numero--;
-}
-
-console.log(factorial);
-*/
-
-// Ejercicio 8: Serie Fibonacci: Muestra los primeros 8 números de la serie Fibonacci: 0, 1, 1, 2, 3, 5, 8, 13
-
-// let contador = 1;
-// let a = 0;
-// let b = 1;
-
-// while (contador <= 8) {
-//   console.log(a);
-
-//   let c = a + b;
-//   a = b;
-//   b = c;
-
-//   contador++;
-// }
-
-// Ejercicio 9: Suma de dígitos: Calcula la suma de los dígitos de un número (por ejemplo, para 123: 1+2+3 = 6
-
-// let suma = 0;
-// let numero = 123;
-
-// while (numero > 0) {
-//   suma = suma + (numero % 10); // Extrae el último dígito y lo suma
-//   numero = Math.floor(numero / 10); // Elimina el último dígito
-
-// }
-// console.log(suma);
-
-// Ejercicio 10: Divisibilidad: Encuentra el primer número que sea divisible tanto por 7 como por 11
-
-// let numeroElegido = 1;
-
-// while (true) {
-//   if (numeroElegido % 7 == 0 && numeroElegido % 11 == 0) {
-//     console.log(numeroElegido);
-//     break;
-//   }
-//   numeroElegido++;
-// }
-
-/*
-
-
-
-Ejercicio 1: Contador controlado
-
-(Base de muchos procesos internos)
-
-👉 Imprime los números del 1 al 5 usando while.
-
-📌 Se usa para tareas repetitivas controladas (reintentos, límites, etc.).
-
-🟢 Ejercicio 2: Validación de datos
+🟢 Ejercicio 11: Validación de datos
 
 (Muy común en formularios y backend)
 
@@ -143,16 +7,88 @@ Ejercicio 1: Contador controlado
 El programa debe seguir pidiendo el número mientras sea menor o igual a 0.
 
 📌 Esto se usa todo el tiempo para validar entradas.
+*/
+// let numero = -1;
+// let numeroValido = false;
 
-🟡 Ejercicio 3: Buscar un valor en un array
+// while (numero <= 0) {
+//   console.log(`Ingresa por favor un número mayor que cero (0)`);
+//   break;
+// }
+
+/*
+🟡 Ejercicio 12: Buscar un valor en un array
 
 (Lectura de datos, logs, listas, etc.)
 
 👉 Dado un array de números, recórrelo con while y detente cuando encuentres el número 0.
-
 📌 Muy común cuando buscas un valor específico y paras al encontrarlo.
 
-🟡 Ejercicio 4: Contar hasta que se cumpla una condición
+*/
+
+// const myArray = [1, 2, 3, 4, 7, 5];
+// let i = 0; // Contador e Indice
+
+// while (i < myArray.length) {
+//   if (myArray[i] === 0) {
+//     console.log(i);
+//     break;
+//   }
+//   i++;
+// }
+
+/**
+Ejercicio 13 (variante)
+
+Dado un array de números, recórrelo con while y detente cuando 
+encuentres el número 0. Muestra la posición donde lo encontraste. 
+Si el array no contiene el número 0, muestra un mensaje indicándolo.
+
+Ejemplo 1:
+Array: [1, 4, 6, 8, 0, 9, 1, 3]
+Salida: "Número encontrado en la posición 4"
+
+Ejemplo 2:
+Array: [1, 4, 6, 8, 9, 1, 3]
+Salida: "Este array no posee un número 0"
+
+*/
+
+// const myArray1 = [1, 4, 6, 8, 9, 1, 3];
+// let contador = 0; // Contador e Indice
+// let encontrado = false; // Banderas (flags) o interruptores
+
+// while (i < myArray1.length) {
+//   // <- i como contador de vueltas
+//   if (myArray1[i] === 0) {
+//     // <- i como índice del array
+//     console.log(`Número encontrado en la posición ${contador}`); // <- i como posición
+//     encontrado = true;
+//     break;
+//   }
+//   contador++;
+// }
+// if (!encontrado) {
+//   console.log('Este array no posee un número 0');
+// }
+
+// Ejercicio 14 (variante)
+
+// Dado un array de números, recórrelo con while y encuentra TODAS las
+// posiciones donde aparece el número 0. Muestra todas las posiciones
+// encontradas. Si no hay ningún 0, muestra un mensaje indicándolo.
+
+// Ejemplo:
+// Array: [1, 0, 6, 0, 9, 0, 3]
+// Salida: "0 encontrado en las posiciones: 1, 3, 5"
+
+// Array: [1, 2, 3, 4, 5]
+// Salida: "El número 0 no fue encontrado"
+
+/* 
+
+
+🟡 Ejercicio 15: Contar hasta que se cumpla una condición
 
 (Procesos que esperan algo externo)
 
@@ -160,8 +96,10 @@ El programa debe seguir pidiendo el número mientras sea menor o igual a 0.
 Cuenta cuántos intentos se necesitan hasta que salga un número mayor a 0.8.
 
 📌 Simula procesos de espera o reintentos.
+*/
 
-🔵 Ejercicio 5: Reintentos con límite
+/*
+🔵 Ejercicio 16: Reintentos con límite
 
 (MUY usado en la industria)
 
@@ -170,4 +108,15 @@ Mientras el usuario no ingrese la contraseña correcta y queden intentos, el sis
 
 📌 Este patrón se usa en autenticación, APIs, conexiones, etc.
 
+
+
 */
+
+
+function ejemplo() {
+    if (true) {
+        let mensaje = "Hola";
+    }
+    console.log(mensaje); // ❌ ERROR: mensaje is not defined
+}
+ejemplo();

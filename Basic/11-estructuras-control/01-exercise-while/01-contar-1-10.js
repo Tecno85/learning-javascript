@@ -1,6 +1,8 @@
 /* 
   Ejercicio 1: Contar del 1 al 10: Escribe un programa que imprima los números del 1 al 10 usando un bucle while.
   Objetivo: Practiacr bucle while con incremento simple 
+  
+  (Base de muchos procesos internos) 📌 Se usa para tareas repetitivas controladas (reintentos, límites, etc.).
 */
 
 let contador = 1; // Inicio: primer número a mostrar

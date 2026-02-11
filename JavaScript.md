@@ -124,3 +124,53 @@ sin necesidad de usar \n.
 
 ## Conclusión
 La interpolación de variables con Template Literals en JavaScript facilita la manipulación de cadenas de texto, mejora la legibilidad del código y proporciona una forma más eficiente de incluir valores dinámicos en cadenas.
+
+---
+---
+<br>
+
+# ¿Qué es prompt-sync? 🎯 
+
+prompt-sync es una librería (paquete) de JavaScript que te permite pedir entrada de usuario de forma síncrona en la terminal.
+
+## Desglosando el nombre:
+
+prompt = "Pedir/solicitar"
+Como cuando le preguntas algo al usuario.
+
+sync = "Síncrono"
+El programa espera a que el usuario escriba antes de continuar.
+
+## ¿Para qué sirve?
+
+Problema: JavaScript (Node.js) no tiene una forma simple de pedir datos en la terminal.
+
+## ¿Qué es una librería/paquete?
+
+Es código que otros programadores hicieron para resolver problemas comunes.
+En lugar de escribir todo desde cero, instalas su solución y la usas.
+Ejemplos de librerías famosas:
+
+prompt-sync → Pedir entrada de usuario
+
+express → Crear servidores web
+
+axios → Hacer peticiones HTTP
+
+lodash → Funciones útiles para arrays/objetos
+
+## Resumen ejecutivo:
+
+prompt-sync es:
+
+Una librería externa (no viene con Node.js)
+
+Para pedir entrada de usuario en la terminal
+
+De forma síncrona (el programa espera)
+
+Muy simple de usar (ideal para aprender)
+
+Se instala con npm install prompt-sync
+
+Se usa con const prompt = require('prompt-sync')();
