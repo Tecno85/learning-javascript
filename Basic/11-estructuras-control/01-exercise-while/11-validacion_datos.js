@@ -1,6 +1,7 @@
 /*
     Ejercicio 11: Validación de datos
-    Objetivo: Simula que un usuario debe ingresar un número mayor que cero. El programa debe seguir pidiendo el número mientras sea menor o igual a cero.
+    Objetivo: Solicitar un número mayor que cero al usuario. 
+              Repetir la solicitud mientras ingrese un valor inválido (menor o igual a cero).
     Concepto: Bucle while con validación
 */
 
