@@ -28,4 +28,5 @@ Creo este repositorio para ir documentando mi proceso de aprendizaje de JavaScri
 - 18-01-2026: Complete los ejercicios del 1 - 5 de bucle. Le pedi a Claude una estructura que me permita dar un estilo profesional a mis ejercicios y para definir un mejor método de estudio.
 - 20-01-2026: Termine de estudiar y entender los primeros 10 ejercicios sobre while. Sigo estudiando otros ejercicios, comencé a guardar cada ejercicio en un archivo diferente para mayor orden. :)
 - 16-02-2026: Seguí estudiando aunque baje el ritmo. Todavia sigo en while, no me voy a desanimar. Voy para adelante. Hoy realice el ejercicio 14 y agregue otros 8 más. Estos 8 son los más usados en la industria y le pedí a Claude que me los diera en un nivel principiante. :)
-- 11-02-2026: Vuelvo a retomar. Señor ayudame a ser constante. :)
+- 11-03-2026: Vuelvo a retomar. Señor ayudame a ser constante. :)
+- 13-03-2026: Repaso ejercicio suma de números ingresados.

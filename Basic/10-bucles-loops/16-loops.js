@@ -255,20 +255,20 @@ do {
 
 Ventajas
 - Garantiza al menos una ejecución
-- Útil cuando necesitas ejecutar código antes de eavluar
+- Útil cuando necesitas ejecutar código antes de evaluar
 - Ideal para validaciones de usuario
 
 Resumen de los tipos de bucles en JavaScript:
 
-for
+- for
 Usado cuando sabes el número exacto de iteraciones
 Control más estructurado
 
-while
+- while
 Usado cuando no sabes el número de iteraciones
 Evalúa la condición antes de ejecutar
 
-do...while
+- do...while
 Garantiza al menos una ejecución
 Evalúa la condición después de ejecutar
 
