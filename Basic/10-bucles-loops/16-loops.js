@@ -215,7 +215,8 @@ while (numero < 0.9) {
 //!                             Bucle - do while
 //$----------------------------------------------------------------------------/
 
-// Es una variante del bucle "while" que garantiza que el bloque de código se ejecute al menos una vez, independientemente de la condición.
+// Es una variante del bucle "while" que garantiza que el bloque de código se ejecute al menos una vez, independientemente de la condición. 
+//$ Traduce "haz esto... mientras se cumpla esta condición"
 
 do {
   // Código a ejecutar

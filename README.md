@@ -30,3 +30,4 @@ Creo este repositorio para ir documentando mi proceso de aprendizaje de JavaScri
 - 16-02-2026: Seguí estudiando aunque baje el ritmo. Todavia sigo en while, no me voy a desanimar. Voy para adelante. Hoy realice el ejercicio 14 y agregue otros 8 más. Estos 8 son los más usados en la industria y le pedí a Claude que me los diera en un nivel principiante. :)
 - 11-03-2026: Vuelvo a retomar. Señor ayudame a ser constante. :)
 - 13-03-2026: Repaso ejercicio suma de números ingresados.
+- 17-03-2026: Inicio ejercicio sobre tablas de multiplicar. :)
