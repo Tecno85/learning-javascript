@@ -31,3 +31,4 @@ Creo este repositorio para ir documentando mi proceso de aprendizaje de JavaScri
 - 11-03-2026: Vuelvo a retomar. Señor ayudame a ser constante. :)
 - 13-03-2026: Repaso ejercicio suma de números ingresados.
 - 17-03-2026: Inicio ejercicio sobre tablas de multiplicar. :)
+- 24-03-2026: Termine el ejercicio sobre tablas de multiplicar, pierdo mucho tiempo, voy a tratar de        centrarme en lo que me pide el ejercicio. Empiezo el ejercicio sobre validación de contraseña. No me voy a rendir en el nombre de Jesus. :)
