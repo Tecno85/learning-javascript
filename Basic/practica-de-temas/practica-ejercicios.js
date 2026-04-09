@@ -1,17 +1,14 @@
-// Ejercicio 4: Validación de contraseña
-// Simula un programa que pida una contraseña hasta que sea correcta.
+// Ejercicio 5: Cuenta regresiva
+// Crear un programa que haga una cuenta regresiva desde un número dado hasta 0.
 
-//Exercise 4: Password validation
-//Simulates a program that asks for a password until it is correct.
+console.log('Cuenta regresiva');
+let numeroIngresado = parseInt(prompt('Ingrese un número: '));
 
-const password = "1234";
-let userPassword;
-
-do {
-  userPassword = prompt('Enter the password: ');
-  if (userPassword !== password) {
-    console.log('Incorrect password, please try again.');
-  }
-} while (userPassword !== password);
-
-console.log('Correct pasword');
+if (isNaN(numeroIngresado) || numeroIngresado < 0) {
+  console.log('Ingresa un número mayor a cero');
+} else {
+  do {
+    console.log(`Numero: ${numeroIngresado}`);
+    numeroIngresado--;
+  } while (numeroIngresado >= 0);
+}
