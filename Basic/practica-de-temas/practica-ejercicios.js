@@ -1,19 +1,29 @@
-// Ejercicio 5: Cuenta regresiva
-// Crear un programa que haga una cuenta regresiva desde un número dado hasta 0.
+// Ejercicio 6: Adivinar un número aleatorio
+// Crea un juego donde el usuario debe adivinar un número aleatorio entre 1 y 100.
 
-let numeroUsuario = Number(prompt('Ingrese un número entero mayor a cero: '));
+/*
+- Crear una variable donde almacene el numeroUsuario
+- Crear variable con número correcto
+*/
 
-if (
-  isNaN(numeroUsuario) ||
-  !Number.isInteger(numeroUsuario) ||
-  numeroUsuario <= 0
-) {
-  console.log('Ingrese un número entero mayor a cero');
-} else {
-  console.log('Cuenta Regresiva');
-  do {
-    console.log(numeroUsuario);
-    numeroUsuario--;
-  } while (numeroUsuario >= 0);
-  console.log('Vamos :)');
-}
+console.log('Juego del Número Secreto');
+
+let numeroSecreto = Math.random() * 100 + 1;
+let numeroUsuario;
+let contador = 1;
+
+do {
+  numeroUsuario = parseInt(
+    prompt('Ingrese un número del 1 al 100, para adivinar: ')
+  );
+  if (numeroSecreto == numeroUsuario) {
+    console.log(
+      `Felicitaciones acertaste, lo lograste en ${contador} intentos`
+    );
+  } else if (numeroSecreto < numeroUsuario) {
+    console.log('El número secreto es un número menor');
+  } else {
+    console.log('El número secreto es un número mayor');
+  }
+  contador++;
+} while (numeroSecreto != numeroUsuario);

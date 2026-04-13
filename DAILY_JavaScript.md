@@ -9,6 +9,7 @@
  - 9-04-2026: Comienzo a documentar mi aprendizaje sobre JavaScript.
  - Resolví ejercicio Do While sobre cuenta regresiva.
  - 10-04-2025: Aprendí a usar Number.isInteger() y la diferencia con parseInt. 
+ - 12-04-2025: Inicio ejercicio sobre adivinar un número.
 
 ### Meta del día
  - Ver 1 ejercicio.
